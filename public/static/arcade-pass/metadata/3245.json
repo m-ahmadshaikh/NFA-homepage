@@ -1,0 +1,16 @@
+{
+    "id": 3245,
+    "external_url": "https://www.nfa.gg/",
+    "image": "https://www.nfa.gg/static/arcade-pass/images/preseasonGIF.gif",
+    "name": "#3245",
+    "attributes": [
+        {
+            "trait_type": "Generation",
+            "value": "1"
+        },
+        {
+            "trait_type": "Faction",
+            "value": "???"
+        }
+    ]
+}

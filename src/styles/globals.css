@@ -1,0 +1,193 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+
+
+
+.hero-image {
+  position: relative;
+}
+
+
+
+@layer base {
+  * {
+    @apply whitespace-pre-line;
+  }
+
+  body {
+    @apply text-white bg-[#1f1f1f] scrollbar-thin scrollbar-thumb-neutral-800/50;
+  }
+
+  .bodySecondary {
+    @apply text-white bg-black scrollbar-thin scrollbar-thumb-neutral-500/50;
+  }
+
+  .button {
+    @apply px-4 font-bold tracking-widest text-white uppercase transition-all duration-150 font-minimum_wide py-5px text-button;
+  }
+
+  .label {
+    @apply text-sm capitalize font-BPdots;
+  }
+
+  .navItem {
+    @apply text-base uppercase font-Bitcrusher tracking-[0.095em] leading-[19px];
+  }
+
+  .bubble {
+    @apply rounded-[100px] flex items-center font-bold text-[22px] leading-[26px] justify-center bg-bubbleBg py-[10px] px-[25px] h-[46px] backdrop-blur-[6px] font-Bitcrusher;
+  }
+}
+
+@font-face {
+  font-family: "BPdots";
+  src: url("/fonts/BPdots/BPdotsSquares.otf");
+}
+
+@font-face {
+  font-family: "minimum wide";
+  src: url("/fonts/Minimum wide/MINIMUM_WIDE.ttf");
+}
+
+@font-face {
+  font-family: "Bitcrusher";
+  src: url("/fonts/Bitcrusher/bitcrusher.ttf");
+}
+
+@font-face {
+  font-family: "ProximaNova";
+  src: url("/fonts/ProximaNova/ProximaNova.otf");
+}
+
+@font-face {
+  font-family: "ProximaNova";
+  src: url("/fonts/ProximaNova/Proxima-Nova-Sbold.ttf");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "ProximaNova";
+  src: url("/fonts/ProximaNova/Proxima-Nova-Bold.ttf");
+  font-weight: bold;
+}
+
+
+@font-face {
+  font-family: "Ocraext";
+  src: url("/fonts/Ocraext/OCRAEXT.TTF");
+}
+
+
+.font-minimum_wide {
+  font-family: "minimum wide", "cursive";
+  font-weight: 400;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+  background-color: #3c3c3c;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #ff00d6;
+}
+
+.custom-scrollbar2::-webkit-scrollbar {
+  width: 13px;
+  background-color: #3c3c3c;
+}
+
+.custom-scrollbar2::-webkit-scrollbar-thumb {
+  background-color: #ff00d6;
+}
+
+.gradient {
+  background: linear-gradient(360deg, #12181d 12.82%, rgba(18, 24, 29, 0) 91.03%);
+}
+
+input:where([type="radio"]) {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  margin: calc(0.75em - 11px) 0.25rem 0 0;
+  background: url("/static/radio.svg") no-repeat center center;
+}
+
+input[type="radio"]:checked {
+  background-image: url("/static/radioChecked.svg");
+}
+
+@media screen and (max-width: 768px) {
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 0;
+  }
+
+  .custom-scrollbar2::-webkit-scrollbar {
+    width: 0;
+  }
+}
+
+.square-emoji {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  line-height: 1em;
+  text-align: center;
+  font-size: 1em;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+li {
+  list-style-type: none;
+}
+
+li::before {
+  content: "\25A0";
+  display: inline-block;
+  margin-right: 0.5em;
+  padding-top: 1em;
+}
+
+@keyframes flash {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+.flash {
+  animation: flash 2s linear infinite;
+}
+
+.blink {
+  position: absolute;
+  top: 35px;
+  left: 72px;
+  animation: flash 2s linear infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}

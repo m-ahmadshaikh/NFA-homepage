@@ -1,0 +1,21 @@
+.parallaxImage {
+  position: absolute;
+  width: 284px;
+  height: 184px;
+}
+
+.imageSm {
+  top: 211px;
+  z-index: 1;
+}
+
+.imageMd {
+  top: 236px;
+  z-index: -1;
+}
+
+.imageLg {
+  top: 306px;
+  left: 315px;
+  z-index: -2;
+}

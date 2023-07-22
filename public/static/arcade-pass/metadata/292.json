@@ -1,0 +1,16 @@
+{
+  "id": 292,
+  "external_url": "https://www.nfa.gg/",
+  "image": "https://www.nfa.gg/static/arcade-pass/images/mechaKnight.jpg",
+  "name": "#292",
+  "attributes": [
+    {
+      "trait_type": "Generation",
+      "value": "0"
+    },
+    {
+      "trait_type": "Faction",
+      "value": "Mecha Knight"
+    }
+  ]
+}

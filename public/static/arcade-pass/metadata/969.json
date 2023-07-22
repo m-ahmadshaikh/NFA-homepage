@@ -1,0 +1,16 @@
+{
+  "id": 969,
+  "external_url": "https://www.nfa.gg/",
+  "image": "https://www.nfa.gg/static/arcade-pass/images/miltecCybernetics.jpg",
+  "name": "#969",
+  "attributes": [
+    {
+      "trait_type": "Generation",
+      "value": "0"
+    },
+    {
+      "trait_type": "Faction",
+      "value": "Miltec Cybernetics"
+    }
+  ]
+}

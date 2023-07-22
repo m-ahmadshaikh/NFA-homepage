@@ -1,0 +1,16 @@
+{
+  "id": 9,
+  "external_url": "https://www.nfa.gg/",
+  "image": "https://www.nfa.gg/static/arcade-pass/images/silverBlade.jpg",
+  "name": "#9",
+  "attributes": [
+    {
+      "trait_type": "Generation",
+      "value": "0"
+    },
+    {
+      "trait_type": "Faction",
+      "value": "Silver Blade"
+    }
+  ]
+}

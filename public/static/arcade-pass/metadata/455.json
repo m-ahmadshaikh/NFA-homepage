@@ -1,0 +1,16 @@
+{
+  "id": 455,
+  "external_url": "https://www.nfa.gg/",
+  "image": "https://www.nfa.gg/static/arcade-pass/images/duneWarrior.jpg",
+  "name": "#455",
+  "attributes": [
+    {
+      "trait_type": "Generation",
+      "value": "0"
+    },
+    {
+      "trait_type": "Faction",
+      "value": "Dune Warrior"
+    }
+  ]
+}

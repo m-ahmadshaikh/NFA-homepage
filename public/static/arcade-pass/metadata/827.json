@@ -1,0 +1,16 @@
+{
+  "id": 827,
+  "external_url": "https://www.nfa.gg/",
+  "image": "https://www.nfa.gg/static/arcade-pass/images/slumSoldier.jpg",
+  "name": "#827",
+  "attributes": [
+    {
+      "trait_type": "Generation",
+      "value": "0"
+    },
+    {
+      "trait_type": "Faction",
+      "value": "Slum Soldier"
+    }
+  ]
+}

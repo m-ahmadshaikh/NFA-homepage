@@ -1,0 +1,16 @@
+{
+  "id": 674,
+  "external_url": "https://www.nfa.gg/",
+  "image": "https://www.nfa.gg/static/arcade-pass/images/alphaMarksman.jpg",
+  "name": "#674",
+  "attributes": [
+    {
+      "trait_type": "Generation",
+      "value": "0"
+    },
+    {
+      "trait_type": "Faction",
+      "value": "Alpha Marksman"
+    }
+  ]
+}

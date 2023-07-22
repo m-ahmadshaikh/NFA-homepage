@@ -1,0 +1,16 @@
+{
+  "id": 176,
+  "external_url": "https://www.nfa.gg/",
+  "image": "https://www.nfa.gg/static/arcade-pass/images/goldenCircuit.jpg",
+  "name": "#176",
+  "attributes": [
+    {
+      "trait_type": "Generation",
+      "value": "0"
+    },
+    {
+      "trait_type": "Faction",
+      "value": "Golden Circuit"
+    }
+  ]
+}
